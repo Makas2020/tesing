@@ -1,7 +1,7 @@
 ---
-- hosts: slave1 
+- hosts: slave2
 become: yes
-name: Installing apache2 on slave1 
+name: Installing apache2 on slave2
 tasks:
 - name: Install apache2
 apt: name=apache2 state=latest
